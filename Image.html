@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zogot Sever - The Hunt Begins</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(#0b1a12, #142d20);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px;
+            background: #07150f;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            color: #4cff88;
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #7affb3;
+        }
+
+        .section {
+            padding: 40px 20px;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: #1d3a2d;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            background: #285443;
+        }
+
+        button {
+            padding: 15px 40px;
+            font-size: 20px;
+            background: #4cff88;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #32d86a;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            background: #07150f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ZOGOT SEVER</h1>
+        <p>
+            The wild calls. Hunt or be hunted.
+        </p>
+        <br>
+        <button onclick="playGame()">▶ Play Now</button>
+    </header>
+
+    <div class="section">
+        <h2>🧍 Hunter</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Franklin</h3>
+                <p>
+                    Elite hunter surviving the wild lands of Zogot.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🐾 Creatures</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>Frog</h3><p>
+                    Fast swamp jumper
+                </p>
+            </div>
+            <div class="card">
+                <h3>Frog Dog</h3><p>
+                    Half frog, half wolf
+                </p>
+            </div>
+            <div class="card">
+                <h3>Bull</h3><p>
+                    Charges with fury
+                </p>
+            </div>
+            <div class="card">
+                <h3>Shadow Beast</h3><p>
+                    Night predator
+                </p>
+            </div>
+            <div class="card">
+                <h3>Glow Stag</h3><p>
+                    Rare magical creature
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🎮 About The Game</h2>
+        <p>
+            Zogot Sever is an action survival hunting game where you explore wild forests,
+            track dangerous creatures, and survive against mysterious beasts.
+        </p>
+    </div>
+
+    <footer>
+        <p>
+            © 2026 Zogot Sever | Made by Ehsaan
+        </p>
+    </footer>
+
+
+    <script>
+        function playGame() {
+            alert("Game starting soon! Add your game link here.");
+            // window.location.href = "game.html";
+        }
+    </script>
+
+</body>
+</html>
